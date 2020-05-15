@@ -40,7 +40,7 @@ namespace Task_6._1_Forms
             }
             catch (Exception E)
             {
-                Console.WriteLine(E.Message);
+                MessageBox.Show(E.Message);
             }
         }
     }
